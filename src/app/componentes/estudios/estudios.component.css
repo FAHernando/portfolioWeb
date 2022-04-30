@@ -1,0 +1,50 @@
+#education{
+    border: 2px solid rgba(0, 0, 0, 0.4);
+    border-radius: 15px;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 2px 0px 15px rgb(1, 7, 90);
+}
+.card-title{
+    background: linear-gradient(-45deg, rgb(53, 0, 177), rgb(120, 84, 250));
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 2px 5px 15px #646464;
+}
+.items-list{
+    /*border: 2px solid rgba(0, 0, 0, 0.4);*/
+    padding: 10px;
+    /*border-radius: 15px;*/
+    list-style: none;
+}
+.logo-image-container{
+    background-color: #d1cfcf;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100%;
+    /*box-shadow: 2px 5px 15px #646464;*/
+    margin-top: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.6);
+}
+.logo-image-container img{
+    width: 100%;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.list-info{
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 5px 15px #646464;
+    
+}
+.list-info:hover{
+    box-shadow: 2px 5px 15px #242323;
+}
+.btn{
+    box-shadow: 2px 5px 20px #646464;
+}
+.btn:hover{
+    box-shadow: 2px 5px 10px #0c0c0c;
+    background-color: #1526c2;
+}

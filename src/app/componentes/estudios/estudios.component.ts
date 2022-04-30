@@ -7,13 +7,13 @@ import { PortfolioAlexisService } from 'src/app/servicios/portfolio-alexis.servi
   styleUrls: ['./estudios.component.css']
 })
 export class EstudiosComponent implements OnInit {
-  miPorfolio:any;
+  educacionList:any;
   constructor(private datosPortfolio:PortfolioAlexisService) { }
 
   ngOnInit(): void {
     this.datosPortfolio.obtenerDatos().subscribe(data => {
       console.log(data);
-      this.miPorfolio=data;
+      this.educacionList=data.education;
     });
   }
 
