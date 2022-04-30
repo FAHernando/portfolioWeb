@@ -1,0 +1,7 @@
+.btn{
+    box-shadow: 2px 5px 20px #646464;
+}
+.btn:hover{
+    box-shadow: 2px 5px 10px #0c0c0c;
+    background-color: #1526c2;
+}
