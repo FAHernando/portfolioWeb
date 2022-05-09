@@ -9,6 +9,7 @@ import { AcercaDeComponent } from './componentes/acerca-de/acerca-de.component';
 import { FormularioComponent } from './componentes/formulario/formulario.component';
 import { PieComponent } from './componentes/pie/pie.component';
 import {HttpClientModule} from '@angular/common/http';
+import { NavbarComponent } from './componentes/navbar/navbar.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,7 +17,8 @@ import {HttpClientModule} from '@angular/common/http';
     EstudiosComponent,
     AcercaDeComponent,
     FormularioComponent,
-    PieComponent
+    PieComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
