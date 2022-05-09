@@ -1,50 +1,33 @@
-#education{
-    border: 2px solid rgba(0, 0, 0, 0.4);
-    border-radius: 15px;
+section{
+    background:rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+.card{
+    border: none;
+    background:rgba(0, 0, 0, 0);
+}
+.card-header{
+    border-radius: 10px;
+    box-shadow: 2px 5px 15px #646464;
     text-align: center;
-    padding: 10px;
-    box-shadow: 2px 0px 15px rgb(1, 7, 90);
+    font-size: 2rem;
+    color: rgb(222, 222, 222);
+    background: linear-gradient(-90deg, rgb(233, 5, 5), rgb(253, 72, 0));
+    text-shadow: 0 0 8px black;
 }
-.card-title{
-    background: linear-gradient(-45deg, rgb(53, 0, 177), rgb(120, 84, 250));
-    padding: 10px;
+.card-body{
+    background: white;
     border-radius: 10px;
-    color: white;
-    box-shadow: 2px 5px 15px #646464;
+    box-shadow: 2px 3px 10px #646464;
 }
-.items-list{
-    /*border: 2px solid rgba(0, 0, 0, 0.4);*/
-    padding: 10px;
-    /*border-radius: 15px;*/
-    list-style: none;
-}
-.logo-image-container{
-    background-color: #d1cfcf;
-    border-radius: 10px;
-    padding: 10px;
-    width: 100%;
-    /*box-shadow: 2px 5px 15px #646464;*/
-    margin-top: 10px;
-    border: 2px solid rgba(0, 0, 0, 0.6);
-}
-.logo-image-container img{
-    width: 100%;
+.card-footer-second{
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    margin: 10px auto;
+    font-size: 1.2rem;
+    border: 2px solid orange;
     border-bottom-left-radius: 10px;
-    border-top-right-radius: 10px;
-}
-.list-info{
-    padding: 10px;
-    border-radius: 10px;
-    box-shadow: 2px 5px 15px #646464;
-    
-}
-.list-info:hover{
-    box-shadow: 2px 5px 15px #242323;
-}
-.btn{
-    box-shadow: 2px 5px 20px #646464;
-}
-.btn:hover{
-    box-shadow: 2px 5px 10px #0c0c0c;
-    background-color: #1526c2;
+    border-bottom-right-radius: 10px;
 }

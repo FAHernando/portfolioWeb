@@ -1,4 +1,10 @@
 /*cabecera*/
+.row{
+    align-items: center;
+}
+.card{
+    border:none;
+}
 .card_first{
     border-radius: 10px;
     padding: 10px;
@@ -13,8 +19,8 @@
     box-shadow: 2px 5px 15px #646464;
 }
 .img-perfil{
-    height: 150px;
-    width: 150px;
+    height: 125px;
+    width: 125px;
     top: -70px;
     left: 50px;
     position: relative;
@@ -27,7 +33,7 @@ h6{
     margin-left: 15px;
 }
 /*Tarjetas Estudios y acerca de*/
-.card-fisrt{
+/*.card-fisrt{
     border-radius: 30px;
     padding: 10px;
     margin-top: 30px;
@@ -69,7 +75,7 @@ h5{
     border-top-right-radius: 15px;
     background: linear-gradient(-45deg, rgb(9, 122, 150), rgb(53, 6, 141));
     box-shadow: 2px 5px 15px #646464;
-}
+}*/
 /*formulario*/
 .letra{
     color: rgb(34, 33, 33);
@@ -78,56 +84,47 @@ form{
     font-family: monospace;
     width: 100%;
     margin: auto;
-    background: rgba(0, 0, 0, 0.6);
     padding: 10px 20px;
     box-sizing: border-box;
     margin-top: 20px;
 }
 h2{
-    color: rgb(228, 235, 236);
+    color: rgb(255, 255, 255);
     text-align: center;
-    margin: 0;
     font-size: 30px;
-    margin-bottom: 20px;
+    padding: 20px;
+    
 }
-input{
+form input{
     width: 100%;
-    margin-bottom: 20px;
     padding: 7px;
-    box-sizing: border-box;
     font-size: 17px;
-    border: 10px solid rgba(0, 0, 0, 0.6);
-    border-radius: 15px;
+    border-radius: 5px;
 }
-textarea{
+form textarea{
     width: 100%;
     min-height: 100px;
     max-height: 200px;
     max-width: 100%;
-    margin-top: 20px;
-    margin-bottom: 20px;
     padding: 7px;
-    box-sizing: border-box;
-    border: 10px solid rgba(0, 0, 0, 0.6);
-    border-radius: 15px;
-}
-#boton{
-    background: #31384A;
-    color: aliceblue;
-    padding: 20px;
-    border-radius: 10px;
-}
-#boton:hover{
-    cursor: pointer;
+    border-radius: 5px;
 }
 @media(max-width: 480px){
     form{
         width: 100%;
     }
 }
+.btn{
+    margin: 5px;
+    box-shadow: 2px 5px 15px #646464;
+}
+.btn:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 5px 20px black;
+}
 
 /*pied de pagina*/
-footer{
+/*footer{
     display: flex;
     background: rgb(20, 20, 20);
     padding: 20px;
@@ -137,4 +134,7 @@ footer{
 }
 .container a{
     padding: 10px;
+}*/
+.card{
+    width: 100%;
 }
