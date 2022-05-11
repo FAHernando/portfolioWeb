@@ -4,6 +4,7 @@ section{
 }
 h1{
     text-align: center;
+    margin: auto;
 }
 span{
     color:rgb(253, 72, 0);
