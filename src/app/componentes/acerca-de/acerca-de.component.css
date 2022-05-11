@@ -7,12 +7,17 @@ h1{
 }
 span{
     color:rgb(253, 72, 0);
+    text-shadow: 0 3px 8px rgb(255, 32, 3);
+}
+.row{
+    align-items: center;
 }
 .card-header-1 img{
     width: 100%;
     height: auto;
-    border-radius: 10px;
-    box-shadow:2px 3px 10px #646464;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow:2px 0 10px #646464;
 }
 .card{
     border: none;
@@ -29,8 +34,12 @@ span{
 }
 .card-body{
     background:rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
-    box-shadow: 2px 3px 10px #646464;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0 3px 10px #646464;
+}
+.card-body:hover{
+    box-shadow: 0 3px 15px black;
 }
 .card-body i{
     color:rgb(253, 72, 0);

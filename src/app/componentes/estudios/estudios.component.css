@@ -7,6 +7,7 @@ h1{
 }
 span{
     color:rgb(253, 72, 0);
+    text-shadow: 0 3px 8px rgb(255, 32, 3);
 }
 .card{
     border: none;
@@ -26,6 +27,10 @@ span{
     background: white;
     border-radius: 10px;
     box-shadow: 2px 3px 10px #646464;
+}
+.card-body:hover{
+    transform: scale(1.1);
+    box-shadow: 0 3px 15px black;
 }
 .card-footer-second{
     background: white;
