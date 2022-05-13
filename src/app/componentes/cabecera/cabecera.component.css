@@ -8,7 +8,7 @@
 .card-header-2{
     box-sizing: border-box;
     left: 33%;
-    top: 15%;
+    top: 16%;
     text-align: center;
     margin: auto;
     position: absolute;
@@ -35,7 +35,7 @@ h6{
 .boton{
     position: absolute;
     top: 500px;
-    left: 77%;
+    left: 73%;
 }
 .boton .btn{
     background-color: rgb(253, 72, 0);

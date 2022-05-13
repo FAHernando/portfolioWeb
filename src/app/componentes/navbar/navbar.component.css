@@ -1,6 +1,6 @@
 section{
     padding: 0;
-    background: linear-gradient(-90deg, rgba(0,0,0,0.8), rgb(100, 100, 100));
+    background: linear-gradient(-90deg, rgba(0,0,0,0.8), rgb(92, 92, 92));
 }
 h3{
     text-shadow: 0 0 8px rgb(0, 0, 0);
@@ -11,4 +11,11 @@ h3{
     padding: 5px;
     text-shadow: 2px 3px 6px black;
     transform: scale(1.1);
+}
+.navbar-brand{
+    padding: 0;
+}
+.navbar-brand img{
+    width: 150px;
+    height: auto;
 }
