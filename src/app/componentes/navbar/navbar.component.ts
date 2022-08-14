@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { PortfolioAlexisService } from 'src/app/servicios/portfolio-alexis.service'
 
+
 @Component({
   selector: 'app-navbar',
   templateUrl: './navbar.component.html',
@@ -16,5 +17,6 @@ export class NavbarComponent implements OnInit {
       this.educacionList=data.education;
     })
   }
+  
 
 }

@@ -16,5 +16,4 @@ export class CabeceraComponent implements OnInit {
       this.miPorfolio=data;
     });
   }
-
 }
