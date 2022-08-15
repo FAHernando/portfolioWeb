@@ -24,7 +24,13 @@ export class RegisterComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  onClick(){
+    this.userService.logout()
+      .then(() => {
+        this.router.navigate(['/login']);
+      })
+      .catch(error => console.log(error));
+  }
   
   onSubmit(){
     this.userService.register(this.formReg.value)

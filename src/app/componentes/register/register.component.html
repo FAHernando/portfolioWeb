@@ -1,4 +1,7 @@
-<h2 class="m-5">Registro de usuario</h2>
+<div class="card">
+    <h2>Registro de usuario</h2>
+</div>
+<div class="container">
 <form [formGroup]="formReg" (ngSubmit)="onSubmit()">
     <div class="mb-3">
         <label class="form-label">Correo Electrónico:</label>
@@ -11,5 +14,7 @@
         <div id="emailHelp" class="form-text">Debe contener 6 carácteres o más.</div>
     </div>
     <button class="btn btn-primary" type="submit" value="Enviar">Enviar</button>
-    <!--<button class="btn btn-secondary m-4" (click)="onClick()">Login</button>-->
+
+    <button class="btn btn-secondary m-4" (click)="onClick()">Login</button>
 </form>
+</div>
